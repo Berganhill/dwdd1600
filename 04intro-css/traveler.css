@@ -1,0 +1,64 @@
+body {
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0
+}
+
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0
+}
+    
+}
+
+
+/* header stuff here */
+header {
+    background-color: #ffb6c1;
+    padding: 1rem 2vw;  
+}
+
+
+header h1 {
+    margin: 0;
+    color: #cbc3e3;
+}
+header p {
+    margin: 0;
+    color: #cbc3e3;
+    letter-spacing: .5px;
+}
+
+
+/* Nav stuff here*/
+nav {
+    background-color: #add8e6;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vs;
+    margin: 0;
+    display: flex;
+}
+
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #cbc3e3;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #cbc3e3;
+    color: #add8e6;
+}
+nav a:hover {
+    color:white;
+}
