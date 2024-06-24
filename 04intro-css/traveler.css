@@ -26,11 +26,11 @@ header {
 
 header h1 {
     margin: 0;
-    color: #cbc3e3;
+    color: #301934;
 }
 header p {
     margin: 0;
-    color: #cbc3e3;
+    color: #301934;
     letter-spacing: .5px;
 }
 
@@ -61,4 +61,65 @@ nav li.active a {
 }
 nav a:hover {
     color:white;
+}
+
+main{
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #301934;
+}
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+main dl dt {
+    color:#301934;
+    font-weight: 700;
+}
+main dl dd {
+    color: #301934;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main adress {
+    font-style:normal;
+    background-color: #cbc3e3;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #add8e6;
+    border-radius: .5rem;
+}
+main a {
+    color: #cbc3e3;
+}
+main a:hover {
+    color: rgb;
+}
+
+/* footer*/
+footer {
+    background-color: #ffb6c1;
+    text-align: center;
+    color: #add8e6;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #add8e6;
 }
