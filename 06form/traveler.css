@@ -125,10 +125,10 @@ main a:hover {
     margin: .5rem;
 }
 
-.myForm label, .myForm select,.myForm [type=text],.myForm [type=tel], .myForm textarea {
+.myForm label, .myForm select,.myForm [type=text],.myForm [type=tel], .myForm textarea, .myform [type=email] {
     display:block;
 }
-.myForm select,.myForm [type=text],.myForm [type=tel], .myForm textarea{
+.myForm select,.myForm [type=text],.myForm [type=tel], .myForm textarea, .myform [type=email]{
     border: solid 1px #ffb6c1;
     padding: .3rem;
     width:250px;
