@@ -97,10 +97,10 @@ main ul li {
     margin-bottom: .5rem;
     font-size: .9rem;
 }
-main adress {
+main address {
     font-style:normal;
     background-color: #cbc3e3;
-    padding: .5rem;
+    padding: .2rem;
     width: 12.5rem;
     border: 1px solid #add8e6;
     border-radius: .5rem;
