@@ -1,0 +1,189 @@
+body {
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0
+}
+
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0
+}
+    
+}
+
+
+/* header stuff here */
+header {
+    background-color: #eee;
+    padding: 1rem 2vw;  
+}
+
+
+header h1 {
+    margin: 0;
+    color: #301934;
+}
+header p {
+    margin: 0;
+    color: #301934;
+    letter-spacing: .5px;
+}
+
+
+/* Nav stuff here*/
+nav {
+    background-color: #add8e6;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vs;
+    margin: 0;
+    display: flex;
+}
+
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #cbc3e3;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #cbc3e3;
+    color: #add8e6;
+}
+nav a:hover {
+    color:white;
+}
+
+main{
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #301934;
+}
+main h2 {
+    color: #301934;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+main dl dt {
+    color:#301934;
+    font-weight: 700;
+}
+main dl dd {
+    color: #301934;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main adress {
+    font-style:normal;
+    background-color: #cbc3e3;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #add8e6;
+    border-radius: .5rem;
+}
+main a {
+    color: #cbc3e3;
+}
+main a:hover {
+    color: rgb;
+}
+
+.myForm feildset {
+    border: 1px solid #43a0b6;
+    border-radius: 3px;
+    margin-bottom: 1rem
+}
+.myForm legend {
+    color: #43a0b6;
+    font-size: .8rem;
+}
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select,.myForm [type=text],.myForm [type=tel], .myForm textarea, .myform [type=email] {
+    display:block;
+}
+.myForm select,.myForm [type=text],.myForm [type=tel], .myForm textarea, .myform [type=email]{
+    border: solid 1px #ffb6c1;
+    padding: .3rem;
+    width:250px;
+    border-radius: 1rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;  
+}
+
+
+.myForm textarea{
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: #rgba(156,51,53,.01)
+}
+
+.myForm [type=submit]{
+    background-color: 343a0b6;
+    border: none;
+    padding: 1rem 2rem;
+    color:white;
+    margin: 1rem 0 0 1vw;
+}
+table.our-activites {
+    width:100%;
+    border-collapse: collapse;
+}
+table.our-activites th {
+    background-color: #abf7b1;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+table.our-activites td {
+    color: #00ab41;
+    padding: .4rem 2vw;
+}
+table.our-activites tr:nth-child(odd) {
+    background-color: #f7f7f7; 
+}
+table.our-activites tr:hover {
+    background-color: #008631;
+}
+
+
+/* footer*/
+footer {
+    background-color: #ffb6c1;
+    text-align: center;
+    color: #add8e6;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #add8e6;
+}
+
