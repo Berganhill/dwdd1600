@@ -33,7 +33,9 @@ header p {
     color: #301934;
     letter-spacing: .5px;
 }
-
+header div {
+    padding-left: 1vw;
+}
 
 /* Nav stuff here*/
 @media only screen and (max-width:600px){
