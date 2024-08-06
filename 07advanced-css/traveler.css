@@ -71,8 +71,6 @@ nav ul {
     margin: 0;
     display: flex;
 }
-
-
 nav a {
     font-size: 1.1rem;
     text-decoration: none;
@@ -86,7 +84,7 @@ nav li.active a {
     color: #add8e6;
 }
 nav a:hover {
-    color:white;
+    color:#301934;
     }
 }
 
