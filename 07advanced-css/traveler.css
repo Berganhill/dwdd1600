@@ -33,8 +33,13 @@ header p {
     color: #301934;
     letter-spacing: .5px;
 }
-header div {
-    padding-left: 1vw;
+.logo img {
+    position: relative;
+    width: 100px;
+    float:left;
+    margin-top:16px;
+    cursor: pointer;
+   
 }
 
 /* Nav stuff here*/
